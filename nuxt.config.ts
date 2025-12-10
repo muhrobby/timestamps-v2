@@ -122,6 +122,9 @@ export default defineNuxtConfig({
     experimental: {
       tasks: true,
     },
+    prerender: {
+      crawlLinks: false,
+    },
   },
 
   app: {
